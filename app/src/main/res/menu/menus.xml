@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/settingsid"
+    android:icon="@mipmap/clope"
+    android:title="@string/settings"
+    app:showAsAction="ifRoom">
+
+    <menu>
+        <item
+            android:id="@+id/subitem1"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/subitem"/>
+
+        <item
+            android:id="@+id/subitem2"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/subite"/>
+
+        <item
+            android:id="@+id/subitem3"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="@string/subit"/>
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/accountid"
+        android:icon="@mipmap/clope"
+        android:title="@string/account"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/viewid"
+        android:icon="@mipmap/clope"
+        android:title="@string/view"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/addid"
+        android:icon="@mipmap/clope"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"/>
+
+</menu>

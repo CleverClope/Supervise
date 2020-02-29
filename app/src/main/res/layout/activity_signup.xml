@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    android:id="@+id/container3"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="130sp"
+        android:layout_gravity="center"
+        android:background="@mipmap/clope"
+        android:fadeScrollbars="true"
+        android:layout_marginTop="50sp"
+        android:src="@mipmap/clope"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/signup"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/fnameid"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="@string/firstname"
+        android:hint="@string/firstname"
+        android:textSize="30dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/lnameid"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="@string/lastname"
+        android:hint="@string/lastname"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@android:color/white"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/userrid"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="@string/username"
+        android:hint="@string/username"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:background="@android:color/white"/>
+
+
+    <EditText
+        android:id="@+id/mailid"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="@string/mail"
+        android:hint="@string/mail"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@android:color/white"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/submit"
+        android:clickable="true"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="40dp"/>
+
+
+</LinearLayout>

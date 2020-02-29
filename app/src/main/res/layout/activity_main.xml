@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container1"
+    android:orientation="vertical"
+    android:background="@drawable/z"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welc"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="20sp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:textSize="40sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginLeft="15sp"
+        android:text="@string/to"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/superv"
+        android:layout_width="270sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:foregroundGravity="center"
+        android:textAlignment="center"
+        android:text="@string/supervision"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="40sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/monito"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:text="@string/monitor"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="230sp"
+        android:layout_gravity="center"
+        android:background="@mipmap/clope"
+        android:fadeScrollbars="true"
+        android:layout_marginTop="50sp"
+        android:src="@mipmap/clope"/>
+
+
+</LinearLayout>
